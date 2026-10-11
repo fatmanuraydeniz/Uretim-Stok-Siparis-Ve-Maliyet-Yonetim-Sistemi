@@ -1,0 +1,23 @@
+CREATE DATABASE AydenizDB;
+GO
+USE AydenizDB;
+GO
+CREATE TABLE Kullanicilar(
+ KullaniciId INT IDENTITY(1,1) PRIMARY KEY,
+ KullaniciAdi NVARCHAR(50) NOT NULL UNIQUE,
+ Parola NVARCHAR(100) NOT NULL
+);
+INSERT INTO Kullanicilar (KullaniciAdi, Parola) VALUES
+(N'FATMANUR', N'1234'),
+(N'MUSTAFA',N'3800'),
+(N'MELİKE',N'4567'),
+(N'LİNA',N'7891'),
+(N'YAĞMUR',N'3456'),
+(N'FURKAN',N'1453'),
+(N'FİKRİYE',N'8452'),
+(N'İBRAHİM',N'4544'),
+(N'MEHMET',N'1975'),
+(N'ELİF',N'2014');
+
+
+
