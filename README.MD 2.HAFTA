@@ -1,0 +1,37 @@
+## Hafta 2 — Ana Ekran ve Ürün Modelleri
+**Tarih: 18.10.2026**
+
+Bu hafta ana ekranın menü yapısı ve ürün modelleri modülü geliştirildi.
+
+### Ana Ekran
+- Sol menü tasarlandı ve modül butonları eklendi.
+- MDI yapısı kullanılarak modül formlarının ana pencere içinde
+  açılması sağlandı.
+- Aynı modülün birden fazla kez açılması engellendi.
+- Ana Ekran butonuyla karşılama paneline dönüş eklendi.
+- Seçilen menü butonunun farklı renkte gösterilmesi sağlandı.
+- Çıkış işlemine kullanıcı onayı eklendi.
+- Panellerin pencere boyutuna uyum sağlaması için yerleşim
+  ayarları düzenlendi.
+
+### Ürün Modelleri
+- AydenizDB veritabanında UrunModelleri tablosu oluşturuldu.
+- Modellerin DataGridView üzerinde listelenmesi sağlandı.
+- Model adı ve açıklamasıyla yeni ürün modeli ekleme,
+  seçilen modeli düzenleme ve silme işlemleri geliştirildi.
+- Tablodan seçilen modelin bilgilerinin giriş alanlarına
+  aktarılması sağlandı.
+- Boş model adı ve tekrar eden model kayıtları için
+  kontroller eklendi.
+- Silme işleminden önce kullanıcı onayı alınması sağlandı.
+
+### Veri Yapısı
+Ürün modelleri renklerden bağımsız olarak kaydedilmektedir.
+Örneğin ADA 2’li takım, farklı renkleri olsa da tek bir
+model kaydıdır. Renk ve stok bilgileri ileride aynı modele
+bağlanacaktır.
+
+### Sonraki Çalışmalar
+- Stok bilgileri ekranının hazırlanması.
+- Renklerin ürün modellerine bağlanması.
+- Model ve renk bazında stok takibinin geliştirilmesi.
