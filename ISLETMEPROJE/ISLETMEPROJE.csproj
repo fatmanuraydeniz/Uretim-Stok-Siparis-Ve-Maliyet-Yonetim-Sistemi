@@ -58,6 +58,72 @@
     <Compile Include="FrmAnaEkran.Designer.cs">
       <DependentUpon>FrmAnaEkran.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmFiyatListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFiyatListesi.Designer.cs">
+      <DependentUpon>FrmFiyatListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMalzemeler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMalzemeler.Designer.cs">
+      <DependentUpon>FrmMalzemeler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMüşteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMüşteriler.Designer.cs">
+      <DependentUpon>FrmMüşteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSevkiyat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSevkiyat.Designer.cs">
+      <DependentUpon>FrmSevkiyat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSiparişler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSiparişler.Designer.cs">
+      <DependentUpon>FrmSiparişler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStokBilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStokBilgileri.Designer.cs">
+      <DependentUpon>FrmStokBilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYedekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYedekleme.Designer.cs">
+      <DependentUpon>FrmYedekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmÇıkış.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmÇıkış.Designer.cs">
+      <DependentUpon>FrmÇıkış.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmÜrünMaliyetleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmÜrünMaliyetleri.Designer.cs">
+      <DependentUpon>FrmÜrünMaliyetleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmÜrünModelleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmÜrünModelleri.Designer.cs">
+      <DependentUpon>FrmÜrünModelleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmİşlemGeçmişi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmİşlemGeçmişi.Designer.cs">
+      <DependentUpon>FrmİşlemGeçmişi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmAnaEkran.resx">
       <DependentUpon>FrmAnaEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmÜrünModelleri.resx">
+      <DependentUpon>FrmÜrünModelleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

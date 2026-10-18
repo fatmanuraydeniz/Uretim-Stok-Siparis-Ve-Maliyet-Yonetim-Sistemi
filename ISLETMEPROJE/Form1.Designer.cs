@@ -204,6 +204,7 @@
             // 
             this.lblHata.AutoSize = true;
             this.lblHata.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblHata.ForeColor = System.Drawing.SystemColors.Control;
             this.lblHata.Location = new System.Drawing.Point(664, 558);
             this.lblHata.Name = "lblHata";
             this.lblHata.Size = new System.Drawing.Size(64, 25);

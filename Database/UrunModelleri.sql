@@ -1,0 +1,10 @@
+USE AydenizDB;
+GO
+
+
+CREATE TABLE UrunModelleri
+(
+    ModelId INT IDENTITY(1,1) PRIMARY KEY,
+    ModelAdi NVARCHAR(150) NOT NULL UNIQUE,
+    Aciklama NVARCHAR(500) NULL
+);
